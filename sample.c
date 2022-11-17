@@ -1,5 +1,11 @@
+/* 
+* This example is copied from
+* https://www.thegeekstuff.com/2013/06/buffer-overflow/
+*/
+
 #include <stdio.h>
 #include <string.h>
+
 
 int main(int argc, char **argv)
 {
