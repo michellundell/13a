@@ -8,6 +8,8 @@
 
 ## 1. Github actions
 
+Read/view: https://docs.github.com/en/actions 
+
 Github actions is about automatically do actions on your code on specific actions like a commit, pull-request etc.
 It can automatically perform things like compiling, run or test your program .. (anything you want).
 
