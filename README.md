@@ -233,22 +233,21 @@ Code scanning results / Flawfinder Failing after 4s — 10 new alerts including 
 Now you need to find the flaw in the software and correct it!
 
 
-## 2. Assigment Setup a repository with github actions as described above, then correct the flaw!
+## 2. Assigment Setup a repository with github actions as described above. 
+
 
 Create your own repository and make the steps of setting up an action that compiles your project.
 
 Test it by making a branch of your code and create a pull-request and see what happens.
-Simulate some errors, commit ... see what happens ...
-Correct the errors, commit ... see what happens .
+Find bad C or C++ coding examples on the net and add it to the sample.c to see if the Flawfinder finds the bad code!
 
 If you got time before lunch, try completing your C++ assignment.
 
-If you haven't yet... add the Findflaw action to your C++ assignment!
+Add the Findflaw action to your C++ assignment!
 
 ## 3.  Repetition
 I will explain further anything you are unsure about in the previous lessons again.
 Think about it and we do repetition of the topics you are unsure about.
 
-Yesterday we covered 'getopt', templates (function & class) and when to use . or -> to access attributes
-and class methods.
+Yesterday we covered getopt(), templates (function & class) and when to use . or -> to access attributes and class methods.
 
