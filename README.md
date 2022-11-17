@@ -115,6 +115,11 @@ Name the file to sample.c
 
 Add the following code to the file
 ```
+/* 
+* This example is copied from
+* https://www.thegeekstuff.com/2013/06/buffer-overflow/
+*/
+
 #include <stdio.h>
 #include <string.h>
 
