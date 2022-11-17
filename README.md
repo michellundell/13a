@@ -18,7 +18,9 @@ There is a lot of actions that could be performed, we will cover the most basic 
 pull request is compiled ...
 
 1. Create a new repository
+
    Make sure it is "public"!
+
    Let github add a README file.
    Click on "Create repository"
 
