@@ -124,30 +124,25 @@ Add the following code to the file
 * This example is copied from
 * https://www.thegeekstuff.com/2013/06/buffer-overflow/
 */
-
 #include <stdio.h>
 #include <string.h>
 
 int main(int argc, char **argv)
 {
-    char buff[15];
+    char buff[15],otherbuf[10];
     int pass = 0;
 
     printf("\n Enter the password : \n");
-    gets(buff);
+    scanf("%s",buff);
 
-    if(strcmp(buff, "thesecretpassword"))
-    {
+    if(strcmp(buff, "thesecretpass")) {
         printf ("\n Wrong Password \n");
-    }
-    else
-    {
+    } else {
         printf ("\n Correct Password \n");
         pass = 1;
     }
 
-    if(pass)
-    {
+    if(pass) {
        /* Now Give root or admin rights to user*/
         printf ("\n Root privileges given to the user \n");
     }
@@ -164,6 +159,9 @@ Click on your sample.c
 Edit it so it looks like
 
 ```
+
+
+
 /* 
 * This example is copied from
 * https://www.thegeekstuff.com/2013/06/buffer-overflow/
@@ -180,25 +178,22 @@ int main(int argc, char **argv)
     printf("\nI understand I will never write a program like this\n");
 
     printf("\n Enter the password : \n");
-    gets(buff);
+    scanf("%s",buff);
 
-    if(strcmp(buff, "thesecretpassword"))
-    {
+    if(strcmp(buff, "thesecretpass")) {
         printf ("\n Wrong Password \n");
     } else {
         printf ("\n Correct Password \n");
         pass = 1;
     }
 
-    if(pass)
-    {
+    if(pass) {
        /* Now Give root or admin rights to user*/
         printf ("\n Root privileges given to the user \n");
     }
 
     return(0);
-}
-```
+}```
 Then scroll down and "Create a new branch for this commit and start a pull request. "
 
 Then click "Propose changes"
