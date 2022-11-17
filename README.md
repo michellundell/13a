@@ -116,6 +116,7 @@ Name the file to sample.c
 Add the following code to the file
 ```
 #include <stdio.h>
+#include <string.h>
 
 int main(int argc, char **argv)
 {
