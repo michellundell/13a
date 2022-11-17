@@ -2,9 +2,9 @@
 
 ## Agenda
 
-1. Github actions #2 
-2. Assigment Setup a repository with github actions
-3. Repetition
+1. Github actions with Flaw finder 
+2. Assigment Setup a repository with github action Flawfinder
+3. Repetition / finishing C++ assignment.
 
 ## 1. Github actions
 
